@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <!-- desi ui link -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+ <!-- popins font -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- font awsm cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body class="flex justify-center h-screen ">
+    <div class="mockup-phone my-auto">
+        <div class="camera"></div> 
+        <div class="display h-[570px] w-[300px] ">
+            <div class="artboard artboard-demo phone-1 ">
+
+
+
+             <!-- fast -->
+             <section id="hid1" class="">
+                <div class=" flex flex-col  ">
+                    <h4 class="text-6xl font-bold">Welcome <br>let's play</h4>
+
+                    <button onclick="playGame()" class="btn btn-outline btn-secondary  mt-12 text-2xl border-2  h-14">Play Naw</button>
+
+                </div>
+             </section>
+
+
+
+             <!-- secend -->
+             <section id="hid2" class="hidden">
+               <div class="flex flex-col justify-center items-center">
+                <h3 id="mtext" class="text-9xl font-bold">h</h3>
+        
+                <div class=" text-white flex justify-between  mt-20 ">
+                    <div class="bg-purple-400 px-4 text-xl py-1 rounded-full">life<i class="fa-solid fa-heart-circle-bolt mx-2"></i> <span id="life">6</span> </div>
+                    <div class="bg-purple-400 px-4  text-xl py-1 rounded-full ml-9">Score<i class="fa-solid fa-dollar-sign mx-2"></i> <span id="ssss">0</span> </div>
+                  </div>
+               </div>
+                
+            </section>
+            <!-- third -->
+            <section id="hid3" class="hidden">
+                <section  class=" flex flex-col items-center justify-center ">
+                    <div class=" flex flex-col items-center gap-4   ">
+                        <h2 class="text-6xl font-bold">Score: <span id="final-scor">14</span></h2>
+                        <button onclick="gameReStart()" class="btn btn-outline btn-secondary  mt-4 text-2xl border-2  h-14">Play Naw</button>
+                        <p class="text-2xl">Practic will mack you pro</p>
+                    </div>
+                </section>
+            </section>
+
+
+
+
+                   
+            </div>
+
+
+
+            
+
+          
+        </div>
+      </div>
+
+
+    <script src="docoment.js"></script>
+</body>
+</html>
